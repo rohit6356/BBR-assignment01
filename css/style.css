@@ -12,13 +12,12 @@ margin: 0px 30px;
 
 .nav1{
     display: flex;
-    justify-content: space-around;
     background-color: #0aaaa0;
     color: white;
 }
 
 .nav1_left {
-    margin:4px 0px;
+    margin:4px 0px 4px 118px;
 }
 .nav1_left a{
     margin:0px 8px;
@@ -26,7 +25,7 @@ margin: 0px 30px;
     color: white;
 }
 .nav1_right{
-    margin:4px 0px;
+    margin:4px 0px 4px 540px;
 }
 .nav1_right a{
     margin:0px 6px;
@@ -35,32 +34,31 @@ margin: 0px 30px;
 }
 .nav2{
     display: flex;
-    justify-content: space-around;
     margin-bottom: -30px;
 }
 
 .nav2_left {
-    margin:4px 0px;
+  margin: 4px 117px;
 }
 .nav2_left img{
   width: 100px;
 }
 .nav2_right{
-    margin:16px 0px;
+  margin: 16px 0px 16px 245px;
 }
 .nav2_right a{
-    margin:0px 10px;
+    margin:0px 13px;
     font-weight: 550;
     color: black;
     text-decoration: none;
 }
 
 .nav2_rightMost{
-    margin:20px 0px;
+  margin: 18px 0px 18px 72px;
 }
 
 .nav2_rightMost a{
-    padding: 3px 6px;
+    padding: 3px 8px;
     font-weight: 500;
     background-color: black;
     color: white;
@@ -69,21 +67,21 @@ margin: 0px 30px;
 }
 
 .part2{
-  height: 350px;
-  background-image: url('https://htmldemo.hasthemes.com/grant-foundation/grant-foundation/img/slider/slide-one.jpg'); 
+  height: 405px;
+  background-image: url('../images/header.jpg'); 
   }
 
 .part2 h1{
     margin-bottom: -15px;
     font-size: 40px;
-    padding: 120px 0px 0px 160px;
+    padding: 120px 0px 0px 123px;
     color: #fff;
 }
 
 .part2 p{
-    padding: 0px 25vw 0px 160px;
+    padding: 0px 25vw 0px 123px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .part2 .buton{
@@ -91,7 +89,7 @@ margin: 0px 30px;
 
 }
 .part2 .buton1{
-    margin: 0px 0px 0px 160px;
+    margin: 0px 0px 0px 123px;
     padding: 10px 12px;
     background-color: black;
     color: #fff;
@@ -116,7 +114,7 @@ margin: 0px 30px;
    text-align: center;
    color: aliceblue;
    /* background-color: black; */
-   background-image: url('https://htmldemo.hasthemes.com/grant-foundation/grant-foundation/img/peopule-say-bg.jpg');
+   background-image: url('../images/background_part6.jpg');
    background-repeat: no-repeat;
 }
 
@@ -143,7 +141,7 @@ margin: 0px 30px;
 }
 
 .volunteersImg{
-   margin: 0px 340px;
+   margin: 0px 570px;
 }
 
 .disc{
@@ -158,161 +156,98 @@ margin: 0px 30px;
 
 .part5{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
+
+.part5 div{
+padding: 0px 60px;
+}
+ 
 
 .part5 p {
     text-align: center;
 }
 .part5 span{
-    font-size: 10px;
+    font-size: 13px;
 }
 
 
+.footer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 25px 70px;
+ background-color: rgb(10, 0, 0);
+ color:#fff;
+ margin-top: 30px;
+}
+/* .footer h3{
+  border-bottom: 2px solid #0aaaa0;
+} */
+.colums1{
+  padding-right: 65px;
+}
+.colums2{
+  margin-right: 35px;
+}
+.colums4{
+  margin-left: 28px;
+}
 
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-    text-decoration: none;
-  }  */
-   footer{
-    width: 100%;
-    position: static;
-    bottom: 0;
-    left: 0;
-    background: #111;
-    margin-top: 30px;
-  }
-  footer .content{
-    max-width: 1350px;
-    /* margin: auto; */
-    padding: 20px;
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-  }
-  footer .content p,a{
-    color: #fff;
-  }
-  footer .content .box{
-    width: 24%;
-    transition: all 0.4s ease;
-  }
-  footer .content .topic{
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 16px;
-  
-  }
-  footer .content p{
-    text-align: justify;
-  }
-  footer .content .lower .topic{
-    margin: 24px 0 5px 0;
-  }
-  footer .content .lower i{
-    padding-right: 16px;
-  }
-  footer .content .middle{
-    padding-left: 80px;
-  }
-  footer .content .middle a{
-    line-height: 32px;
-  }
-  
-  
-  footer .content .secondmiddle{
-    padding-left: 5px;
-  }
-  footer .content .secondmiddle a{
-    line-height: 32px;
-  }
-  
-  
-  .topic p{
-      padding-left: 5px;
-  }
-  
-  #form{
-    margin-top: 25px;
-    display: flex;
-  }
-  #form div{
-    height: 20px;
-    padding: 15px;
-    background-color: aqua;
-  }
-  
-  footer .content .right input[type="text"]{
-    height: 45px;
-    width: 100%;
-    outline: none;
-    color: #d9d9d9;
-    background: #000;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-size: 17px;
-    border: 2px solid #222222;
-  }
-  footer .content .right input[type="submit"]{
-    height: 42px;
-    width: 3%;
-    font-size: 18px;
-    color: #d9d9d9;
-    background: #eb2f06;
-    outline: none;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    margin-top: 2px;
-    margin-left: -42px;
-    border: 2px solid #eb2f06;
-    transition: all 0.3s ease-in-out;
-    position: absolute;
-  }
-  .content .right input[type="submit"]:hover{
-    background: none;
-    color:  #eb2f06;
-  }
-  footer .content .media-icons a{
-    font-size: 11px;
-    height: 32px;
-    width: 21px;
-    display: inline-block;
-    text-align: center;
-    margin: 5rem 5px 0 0;
-    transition: all 0.3s ease;
-  }
-  
-  footer .bottom{
-    width: 100%;
-    text-align: left;
-    color: #d9d9d9;
-    padding: 0 40px 5px 0;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .bottom p{
-    text-align: left;
-    padding-top: 6rem;
-  }
-  .media-icons a{
-    text-align: left;
-    padding: 25px 4px;
-  }
+.colums2 .ourProj{
+   display: flex;
+   flex-direction: column;
+   padding-right: 25px;
 
-  .bottom_most{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .bottom_most .botom p{
-    color: #fff;
-  }
- .media-ican a{
-margin-right: 15px;
-  }
+}
+.colums2 .ourProj a{
+  padding-top: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.colums2 .ourProj a span{
+margin-right: 13px;
+}
+
+.colums3 .quicklink{
+   display: flex;
+   flex-direction: column;
+   padding-right: 25px;
+
+}
+.colums3 .quicklink a{
+  padding-top: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.colums3 .quicklink a span{
+margin-right: 13px;
+}
+.colums4 input{
+  padding: 7px;
+  font-size: 16px;
+}
+
+
+.colums4 i{
+  background-color: #0aaaa0;
+ padding: 9.6px 15px;
+}
+
+
+.bottom_most{
+  display: flex;
+  background-color: rgb(14, 8, 8);
+  color: #fff;
+}
+
+.bottom_most .botom p{
+  margin-left: 70px ;
+}
+.bottom_most .media-ican{
+margin: 18px;
+margin-left: 730px;
+}
+.bottom_most .media-ican a{
+padding: 0px 7.5px;
+color: aliceblue;
+}
